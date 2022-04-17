@@ -1,0 +1,63 @@
+.nav_item {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-bottom: 1px white solid;
+    font-size: 14px;
+    cursor: pointer;
+    padding-left: 15px;
+}
+
+.nav_item:hover {
+    background: -webkit-linear-gradient(90deg, #92969b, #435361); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(90deg, #92969b, #435361); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.items_row {
+    padding-left: 22px;
+    padding-right: 22px;
+}
+
+.nav_title {
+    font-size: 18px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    border-bottom: 1px white solid;
+    cursor: default;
+    /*padding-left: 0px;*/
+}
+
+.buttons_col {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 100px;
+    padding-right: 0px;
+}
+
+.cancel_btn, .submit_btn {
+    background: #374756;
+    border: 1px solid white;
+    color: white;
+    padding: 8px 50px;
+    font-size: 14px;
+    border-radius: 6px;
+}
+
+.cancel_btn:hover, .submit_btn:hover {
+    background: #92959a;
+}
+
+.cancel_btn {
+    margin-left: 5px;
+}
+.nav_link{
+    padding-left: 0px;
+    padding-right: 0px;
+    color: white;
+    text-decoration: none;
+}
+.nav_link_active{
+    color: red;
+}
+.nav_link_active > .nav_item{
+    color: red;
+}
